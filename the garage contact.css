@@ -1,0 +1,81 @@
+.nav1{
+    z-index: 50;
+    opacity: .9;
+}
+.d-flex{
+    position: relative;
+    left: 320px;
+    display: flex;
+    gap: 10px;
+}
+.a1{
+    color: black;
+    font-weight: bolder;
+}
+.ip1{
+    width: 550px;
+}
+.bet{
+    background-color: none;
+    border: none;
+}
+.img{
+    height: 500px;
+   position:relative;
+   top: -120px; 
+}
+.bb{
+    padding: 10px;
+}
+.ibox{
+    width: 750px;
+}
+iframe{
+    width: 100%;
+    border: 5px solid red;
+}
+/* footer */
+.footer{
+    width: auto;
+    background-color: black;
+    color: #686868;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.c2,.c3{
+    padding-left: 100px;
+}
+.txt:hover{
+    color: white;
+}
+.iii{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.txt1:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px){
+    .d-flex{
+        position: unset;
+    }
+    .ip1{
+        width: 100%;
+    }
+    .ibox{
+        width: 100%;
+    }
+    .bb{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+      
+    }
+}

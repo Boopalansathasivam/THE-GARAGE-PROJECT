@@ -1,0 +1,195 @@
+.nav1{
+    z-index:100;
+    opacity: .9;
+}
+.d-flex{
+    position: relative;
+    left: 320px;
+    display: flex;
+    gap: 10px;
+}
+.imgdiv{
+    position: relative;
+    top: -120px;
+    height: 720px;
+    z-index: -100;
+}
+.a1{
+    color: black;
+    font-weight: bolder;
+}
+.ip1{
+    width: 550px;
+}
+.bet{
+    background-color: none;
+    border: none;
+}
+/* modal */
+.a2{
+    text-decoration: none;
+}
+.a2:hover{
+    text-decoration: underline;
+}
+/* repair and services */
+.crd{
+    padding: 10px;
+    padding-top: 20px;
+    width: 180px;
+    height: 150px;  
+}
+.crd:hover{
+    box-shadow: 8px  8px 8px black;
+}
+.aref{
+    text-decoration: none;
+    color: black;
+}
+/* book an appointment */
+.app{
+    height: 450px;
+    background-color: #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.app2{
+    
+    padding-top: 25px;
+}
+.app3{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.btnn{
+    width: 300px;
+    background-color: rgb(255, 4, 4);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+}
+/* appointment modal */
+
+.mb{
+    height: 450px;
+
+}
+.ipp{
+    width: 300px;
+}
+.ipp1{
+    width: 100%;
+}
+.sub{
+    background-color: green;
+    color: white;
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+.om{
+    text-decoration: none;
+    color: black;
+}
+
+.sub:hover{
+    background-color: rgb(43, 177, 43);
+}
+/* services */
+
+.services{
+    height:auto;
+    background-color: #e3ecf96c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.services2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+
+}
+.services3{
+    height: auto;
+    background-color: #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+/* footer */
+.footer{
+    width: auto;
+    background-color: black;
+    color: #686868;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.c2,.c3{
+    padding-left: 100px;
+}
+.txt1:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.txt:hover{
+    color: white;
+}
+.iii{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .d-flex{
+        position: unset;
+    }
+    .ip1{
+        width: 100%;
+    }
+    .imgdiv{
+        width: 100%;
+        height: auto;
+    }
+    .crd{
+        width: 100%;
+        height: auto;
+    }
+    .app{
+        height: auto;
+    }
+    .app2{
+        padding: unset;
+    }
+    .btnn{
+        width: 100%;
+        height: auto;
+        
+    }
+    .mb{
+        height: auto;
+        width: 100%;
+    }
+    .ipp{
+        width: 100%;
+    }
+    .ipp1{
+        width: 100%;
+    }
+    .sub{
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    }
