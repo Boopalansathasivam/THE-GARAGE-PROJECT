@@ -119,6 +119,9 @@
     padding-bottom: 30px;
     padding-left: 15px;
 }
+.vid{
+    width:50% ;
+    }
 /* footer */
 .footer{
     width: auto;
@@ -187,6 +190,10 @@
         width: 100%;
     }
     .sub{
+        width: 100%;
+        height: auto;
+    }
+    .vid{
         width: 100%;
         height: auto;
     }
