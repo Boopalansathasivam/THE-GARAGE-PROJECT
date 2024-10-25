@@ -56,6 +56,11 @@ iframe{
     gap: 30px;
     list-style-type: none;
 }
+
+  .txt{
+    color: #686868; 
+    text-decoration: none;
+}
 .txt1:hover{
     color: white;
     text-decoration: underline;
