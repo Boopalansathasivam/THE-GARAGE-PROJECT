@@ -140,6 +140,10 @@
     color: white;
     cursor: pointer;
 }
+.txt{
+    color: #686868; 
+    text-decoration: none;
+}
 .txt:hover{
     color: white;
 }
