@@ -35,6 +35,10 @@
 .c2,.c3{
     padding-left: 100px;
 }
+.txt{
+    color: #686868; 
+    text-decoration: none;
+}
 .txt:hover{
     color: white;
 }
