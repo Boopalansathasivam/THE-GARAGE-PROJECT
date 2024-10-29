@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="the carage logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>THE GARAGE| FOR YOUR CAR</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light  nav1">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-light  nav1" >
+        <div class="container-fluid" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
           <img src="Auto Detailing.png" alt="Avatar Logo" style="width:100px;" class="rounded-pill img1"> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
@@ -124,11 +127,11 @@
       </section>
       <!-- repair and services -->
       <section>        
-      <center><h2>REPAIR AND SERVICES</h2></center>
+      <center><h2 data-aos="zoom-in">REPAIR AND SERVICES</h2></center>
         <br>
         <br>
       
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="fade-up-right">
           <div class="row">
             <div  class="col-sm-2">
               <a href="the garage periodic services.html" class="aref">
@@ -267,7 +270,7 @@
       <br>
       <!-- book an appointment -->
       <section>
-        <div class="container-fluid app">
+        <div class="container-fluid app" data-aos="fade-up-left">
           <div class="row">
             <div class="col-sm-5">
               <img src="car 2.jpg" alt="Los Angeles" class="d-block app2" style="width:100%">
@@ -470,7 +473,7 @@
          <br>
          <!-- servivces -->
          <section>
-          <div class="container-fluid services" id="s1">
+          <div class="container-fluid services" id="s1" data-aos="fade-up-right">
             <h3>Free Pick-up & Drop-off Service within 10km – Offered by The Garage!</h3>
         
             <p>At The Garage, we’re committed to making car maintenance and repairs as convenient as possible for you. That’s why we’re offering a complimentary pick-up and drop-off service within a 10km radius of our shop. Whether you're at home, work, or any other location, we’ll come to you and handle everything—no extra charges, no hassle.</p>
@@ -509,7 +512,7 @@
             </div>
             <br>
               <br>
-            <div class="container-fluid">
+            <div class="container-fluid" data-aos="zoom-in">
               <video autoplay loop controls class="vid">
                 <source src="the garage video.mp4">
               </video>
@@ -517,7 +520,7 @@
             <br>
             <br>
             
-            <div class="container-fluid services2" id="s3">
+            <div class="container-fluid services2" id="s3"  data-aos="fade-up-left">
               <h3>
                 Emergency Breakdown Assistance – We'll Arrange a Car for You!</h3>
                 <p>When your car breaks down during an emergency, you need a fast solution. That’s why we’re offering our exclusive Emergency Car Replacement Service to ensure you never miss an important moment.
@@ -555,7 +558,7 @@
             </div>
           
             <br>
-            <div class="container-fluid services3" id="s2">
+            <div class="container-fluid services3" id="s2" data-aos="fade-up-right">
               <h3> Car Services at Your Doorstep – Hassle-Free & Convenient!</h3>
               <p>Get your car serviced without ever leaving your home! With our doorstep car service, we bring expert technicians directly to you, ensuring your vehicle receives top-quality care without the inconvenience of visiting a workshop.</p>
               <br>
@@ -591,7 +594,7 @@
          </section>
          <!-- footer -->
          <section>
-          <footer class="footer">
+          <footer class="footer"  data-aos="zoom-out-down">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-4 c1">
@@ -645,11 +648,10 @@
             </div>
           </footer>
           
-        </section>
-        
-        
-    
-     
-    
+        </section>   
 </body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
